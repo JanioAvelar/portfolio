@@ -1,0 +1,11 @@
+body{
+	margin: 0px;
+	background-image: url("pexels-bruno-mancini-3852288.jpg");
+	background-position: right center	
+}
+
+#leftBar{
+	width: 400px;
+	background-color: red;
+	length: 800px
+}
