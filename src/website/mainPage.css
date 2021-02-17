@@ -1,11 +1,29 @@
-body{
-	margin: 0px;
-	background-image: url("pexels-bruno-mancini-3852288.jpg");
-	background-position: right center	
+body {
+  margin: 0px;
+  background-image: url("pexels-bruno-mancini-3852288.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
 }
 
-#leftBar{
-	width: 400px;
-	background-color: red;
-	length: 800px
+#leftBar {
+  height: 800px;
+  width: 350px;
+  background-color: #6edec9;
+  opacity: 75%;
+}
+
+#emailContainer {
+  display: inline-block;
+}
+
+h1 {
+  opacity: 100%;
+}
+
+h1:hover {
+  color: azure;
+}
+
+#leftBar:hover {
+  opacity: 85%;
 }
