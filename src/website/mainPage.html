@@ -1,34 +1,48 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="mainPage.css">
+		<meta charset="utf-8">
+		<meta name= "description" content="Esta é uma página de portfolio de programação para desenvolvedores e headhunters">
 	</head>
 	<body>
-		<div id="leftBar">
-			<div id="bio">
-				<img src="../img/foto.jpg" id="photo">
-				<h2>Janio Avelar</h2>
-				<h3>Desenvolvedor Web</h3>
-			</div>
-			
-			<div id="menu">
-				<h1>Portfolio</h1>
-				<h1>Sobre Mim</h1>
-			</div>
-			
-			<div id="socialMedia">
-				<div id="emailContainer">
-					<img src="../img/emailIcon.png" id="emailIcon">
-					<span id="email"><a href="mailto:janioq2010@gmail"> janioq2010@gmail.com</a> </span>
+		<section id="mainSection">
+			<nav id="leftBar">
+				<div id="bio">
+					<img src="../img/foto.jpg" alt="Foto de Perfil" id="photo">
+					<h2>Janio Avelar</h2>
+					<h3>Desenvolvedor Web</h3>
 				</div>
-				<div id="linkedinContainer">
-					<img src="../img/linkedinIcon.png" id="linkedinIcon">
-					<span id="linkedin">
-						<a href="https://www.linkedin.com/in/janio-avelar" target=_blank >
-							janio-avelar
-						</a>
-					</span>
+				
+				<nav id="menu">
+					<ul>
+						<li><span class="menuItem" id="portfolioItem">Portfolio</span></li>
+						<li><span class="menuItem" id="sobreMimItem">Sobre Mim</span></li>				
+					</ul>				
+				</nav>
+				
+				<div id="socialMedia">
+					<div id="emailContainer">
+						<img src="../img/emailIcon.png" id="emailIcon">
+						<span id="email">
+							<a href="mailto:janioq2010@gmail">
+								janioq2010@gmail.com
+							</a> 
+						</span>
+					</div>
+
+					<div id="linkedinContainer">
+						<img src="../img/linkedinIcon.png" id="linkedinIcon">
+						<span id="linkedin">
+							<a href="https://www.linkedin.com/in/janio-avelar" target=_blank >
+								janio-avelar
+							</a>
+						</span>
+					</div>
 				</div>
-			</div>
-		</div>
+			</nav>
+		</section>
+		<footer>
+			<span id="footerText">Este site foi feito inteiramente com HTML, CSS e JAVASCRIPT</span>
+		</footer>
 	</body>
 </html>

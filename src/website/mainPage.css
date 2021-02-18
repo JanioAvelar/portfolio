@@ -1,6 +1,10 @@
 body {
   margin: 0px;
+}
+
+#mainSection {
   background-image: url("../img/pexels-bruno-mancini-3852288.jpg");
+  margin: 0px;
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -15,6 +19,7 @@ a {
   width: 350px;
   background-color: #6edec9;
   opacity: 75%;
+  margin: 0px;
 }
 #photo {
   margin-top: 25px;
@@ -30,17 +35,25 @@ a {
 
 #menu {
   margin-top: 25%;
+  display: block;
 }
 
 #emailContainer {
   display: inline-block;
 }
-
-h1 {
-  opacity: 100%;
+ul {
+  list-style: none;
+  padding: 0px;
 }
 
-h1:hover {
+.menuItem {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  opacity: 100%;
+  color: black;
+  font-size: 25px;
+}
+
+.menuItem:hover {
   color: azure;
 }
 
@@ -68,4 +81,19 @@ h1:hover {
 #linkedinIcon,
 #emailIcon {
   padding-left: 100px;
+}
+
+footer {
+  background-color: darkgray;
+  display: table;
+  height: 50px;
+  width: 100%;
+  opacity: 75%;
+  text-align: center;
+}
+
+#footerText {
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
 }
