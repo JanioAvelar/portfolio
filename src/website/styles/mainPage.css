@@ -2,16 +2,31 @@ body {
   margin: 0px;
 }
 
-#mainSection {
-  background-image: url("../img/pexels-bruno-mancini-3852288.jpg");
-  margin: 0px;
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
 a {
   text-decoration: none;
   color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+footer {
+  background-color: darkgray;
+  display: table;
+  height: 50px;
+  width: 100%;
+  background-color: #6edec9;
+  text-align: center;
+}
+
+#mainSection {
+  display: flex;
+  flex-direction: row;
+  background-image: url("../img/pexels-bruno-mancini-3852288.jpg");
+  margin: auto;
+  background-size: cover;
 }
 
 #leftBar {
@@ -22,7 +37,7 @@ a {
 }
 
 #leftBar::before {
-  content: "";
+  content: "" ;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -54,10 +69,6 @@ a {
 #emailContainer {
   position: relative;
   display: inline-block;
-}
-ul {
-  list-style: none;
-  padding: 0px;
 }
 
 .menuItem {
@@ -94,12 +105,13 @@ ul {
   padding-left: 100px;
 }
 
-footer {
-  background-color: darkgray;
-  display: table;
-  height: 50px;
-  width: 100%;
+#testimony{
   text-align: center;
+  padding-top: 20%;
+  flex-grow: 1;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
 }
 
 #footerText {
