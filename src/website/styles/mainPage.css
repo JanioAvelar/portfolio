@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0px;
 }
 
@@ -104,7 +104,7 @@ footer {
 
 #linkedinIcon,
 #emailIcon {
-  padding-left: 100px;
+  float: left;
 }
 
 #testimony {
@@ -128,4 +128,43 @@ footer {
   display: table-cell;
   vertical-align: middle;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  #mainSection {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #leftBar {
+    width: 100%;
+    height: min-content;
+    margin: 0px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  #menu {
+    margin-top: 10%;
+    display: block;
+  }
+
+  #socialMedia {
+    margin-top: 10%;
+    font-weight: bold;
+  }
+
+  #socialMedia li {
+    float: inline-start;
+    padding-left: 33%;
+  }
+
+  #testimony {
+    padding: 10% 2% 10% 2%;
+    flex-grow: 1;
+    font-size: 1.5em;
+  }
 }
