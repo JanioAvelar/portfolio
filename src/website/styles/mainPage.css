@@ -4,7 +4,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 ul {
@@ -17,7 +17,7 @@ footer {
   display: table;
   height: 50px;
   width: 100%;
-  background-color: #6edec9;
+  background-color: #143c2e;
   text-align: center;
 }
 
@@ -37,13 +37,13 @@ footer {
 }
 
 #leftBar::before {
-  content: "" ;
+  content: "";
   position: absolute;
   top: 0px;
   right: 0px;
   left: 0px;
   bottom: 0px;
-  background-color: #6edec9;
+  background-color: #143c2e;
   opacity: 75%;
 }
 
@@ -59,6 +59,7 @@ footer {
 #menu {
   position: relative;
   text-align: center;
+  color: white;
 }
 
 #menu {
@@ -74,12 +75,13 @@ footer {
 .menuItem {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   opacity: 100%;
-  color: black;
+  color: white;
   font-size: 25px;
 }
 
 .menuItem:hover {
-  color: azure;
+  color: darkgray;
+  cursor: default;
 }
 
 #socialMedia {
@@ -105,17 +107,25 @@ footer {
   padding-left: 100px;
 }
 
-#testimony{
+#testimony {
   text-align: center;
+  text-shadow: 1px 2px black;
   padding-top: 20%;
   flex-grow: 1;
   font-size: 1.5em;
   font-weight: bold;
   color: white;
+  opacity: 90%;
+}
+
+#testimony q {
+  background-color: #143c2e;
+  opacity: 100%;
 }
 
 #footerText {
   font-weight: bold;
   display: table-cell;
   vertical-align: middle;
+  color: #fff;
 }
