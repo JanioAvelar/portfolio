@@ -67,7 +67,8 @@ footer {
   display: block;
 }
 
-#emailContainer {
+#emailContainer,
+#linkedinContainer {
   position: relative;
   display: inline-block;
 }
@@ -132,12 +133,15 @@ footer {
   }
 
   body {
+    right: 0;
+    left: 0;
     background-color: #143c2e;
     display: flex;
     flex-direction: column;
   }
 
   #mainSection {
+    background-clip: content-box;
     display: flex;
     flex-direction: column;
   }
@@ -158,12 +162,13 @@ footer {
   }
 
   #socialMedia {
-    margin: 0;
+    margin-top: 0;
+    padding-left: 20em;
+    width: max-content;
   }
 
-  #socialMedia > li > a {
-    font-size: 1em;
-    margin-left: 2em;
+  #socialMedia > li a {
+    font-size: 30px;
   }
 
   #testimony {
@@ -191,12 +196,15 @@ footer {
   }
 
   body {
+    right: 0;
+    left: 0;
     background-color: #143c2e;
     display: flex;
     flex-direction: column;
   }
 
   #mainSection {
+    background-clip: content-box;
     display: flex;
     flex-direction: column;
   }
@@ -217,12 +225,13 @@ footer {
   }
 
   #socialMedia {
-    margin: 0;
+    margin-top: 0;
+    padding-left: 20em;
+    width: max-content;
   }
 
-  #socialMedia > li > a {
-    font-size: 1em;
-    margin-left: 2em;
+  #socialMedia > li a {
+    font-size: 30px;
   }
 
   #testimony {
