@@ -88,23 +88,15 @@ footer {
   position: relative;
   margin-top: 30%;
   font-weight: bold;
+  padding-left: 33%;
 }
 
-#emailIcon {
-  text-align: right;
-  width: 25px;
-  height: 25px;
-}
-
+#emailIcon,
 #linkedinIcon {
+  float: left;
   text-align: right;
   width: 25px;
   height: 25px;
-}
-
-#linkedinIcon,
-#emailIcon {
-  float: left;
 }
 
 #testimony {
@@ -130,41 +122,120 @@ footer {
   color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
-  #mainSection {
-    display: block;
+@media screen and (max-width: 600px) {
+  * {
+    width: 100%;
   }
 
-  a {
-    text-decoration: none;
+  #photo {
+    width: 25em;
+  }
+
+  body {
+    background-color: #143c2e;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mainSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bio {
+    padding-top: 3em;
   }
 
   #leftBar {
-    width: 100%;
-    height: min-content;
-    margin: 0px;
-    display: block;
-    padding-bottom: 15px;
+    width: inherit;
+    height: fit-content;
+    padding-bottom: 10px;
   }
 
   #menu {
-    margin-top: 10%;
-    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 
   #socialMedia {
-    margin-top: 10%;
-    font-weight: bold;
+    margin: 0;
   }
 
-  #socialMedia li {
-    float: inline-start;
-    padding-left: 33%;
+  #socialMedia > li > a {
+    font-size: 1em;
+    margin-left: 2em;
   }
 
   #testimony {
-    padding: 10% 2% 10% 2%;
+    padding: 6em 0 6em 0;
+    flex-grow: 2;
+  }
+
+  footer {
     flex-grow: 1;
+  }
+
+  #footerText {
     font-size: 1.5em;
+    padding: 50px 0px 50px 0;
+  }
+}
+
+@media screen and (max-device-width: 600px) {
+  * {
+    width: 100%;
+  }
+
+  #photo {
+    width: 25em;
+  }
+
+  body {
+    background-color: #143c2e;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mainSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bio {
+    padding-top: 3em;
+  }
+
+  #leftBar {
+    width: inherit;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+
+  #menu {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  #socialMedia {
+    margin: 0;
+  }
+
+  #socialMedia > li > a {
+    font-size: 1em;
+    margin-left: 2em;
+  }
+
+  #testimony {
+    padding: 6em 0 6em 0;
+    flex-grow: 2;
+  }
+
+  footer {
+    flex-grow: 1;
+  }
+
+  #footerText {
+    font-size: 1.5em;
+    padding: 50px 0px 50px 0;
   }
 }
