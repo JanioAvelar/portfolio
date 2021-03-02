@@ -129,9 +129,12 @@ footer {
   * {
     width: 100%;
   }
+  h2 {
+    font-size: 2rem;
+  }
 
   #photo {
-    width: 25em;
+    width: 15em;
   }
 
   body {
@@ -159,18 +162,27 @@ footer {
   }
 
   #menu {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #menu ul li {
+    line-height: 2rem;
+  }
+
+  #menu ul li a {
+    font-size: 2em;
+    font-weight: normal;
   }
 
   #socialMedia {
     margin-top: 0;
-    padding-left: 20em;
+    padding-left: 10rem;
     width: max-content;
   }
 
   #socialMedia > li a {
-    font-size: 30px;
+    font-size: 1.2rem;
   }
 
   #testimony {
@@ -183,8 +195,8 @@ footer {
   }
 
   #footerText {
-    font-size: 1.5em;
-    padding: 50px 0px 50px 0;
+    font-size: 2.5em;
+    padding: 1em 0px 1em 0;
   }
 }
 
@@ -246,8 +258,8 @@ footer {
   }
 
   #footerText {
-    font-size: 1.5em;
-    padding: 50px 0px 50px 0;
+    font-size: 2.5em;
+    padding: 1em 0px 1em 0;
   }
 }
 
